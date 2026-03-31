@@ -1,17 +1,40 @@
-# AI Flask Application
+# Final Project: Emotion Detector
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)](https://flask.palletsprojects.com/)
+## Project Name
+**Final Project** - Emotion Detector
 
-Flask web application developed for **Coursera: Developing AI Applications with Python and Flask**. Demonstrates REST API development, testing, and modern Python web practices.
+## Course
+Developing AI Applications with Python and Flask (IBM)
 
-## ✨ Features
+## Description
+This is the **Final Project** for the IBM course "Developing AI Applications with Python and Flask".
 
-- Flask REST API endpoints
-- AI/ML model integration
-- Unit and integration testing
-- Responsive HTML/CSS frontend
-- Database models and migrations
-- Production-ready deployment config
+In this project, I developed an AI-based web application that detects emotions from text using the Watson NLP library. The application is built with Python, packaged as a module, tested with unit tests, deployed as a web app using Flask, includes proper error handling, and passes static code analysis with a perfect score.
 
-## 📁 Project Structure
+### Key Features:
+- Emotion detection using Watson NLP (anger, disgust, fear, joy, sadness)
+- Formatted output with dominant emotion
+- Web deployment with Flask
+- Comprehensive unit testing
+- Error handling for invalid/blank input
+- Static code analysis using pylint (10.00/10)
+
+## Repository Structure
+- `EmotionDetection/` → Package containing `emotion_detection.py`
+- `server.py` → Flask web application
+- `test_emotion_detection.py` → Unit tests
+- `templates/index.html` → Web interface
+
+## Technologies Used
+- Python
+- Watson NLP (Emotion Detection)
+- Flask
+- unittest
+- pylint
+
+---
+
+**Submitted by:** [Your Full Name]  
+**Date:** March 31, 2026
+
+This repository fulfills all requirements of the **Final Project**.
